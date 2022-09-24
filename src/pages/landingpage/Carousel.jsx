@@ -4,6 +4,7 @@ import Pandit from "../../assets/rahul-pandit.jpg";
 import { Carousel } from "react-bootstrap";
 
 const CarouselLayout = () => {
+  //no state
   return (
     <Carousel>
       <Carousel.Item>
