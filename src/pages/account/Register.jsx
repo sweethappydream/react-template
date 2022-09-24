@@ -14,6 +14,7 @@ const Register = () => {
     }));
   };
   const onSubmit = (e) => {
+    //state
     e.preventDefault();
     setResult(form);
   };
