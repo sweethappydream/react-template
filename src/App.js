@@ -7,7 +7,10 @@ import Cards from "./pages/cards/Cards";
 import LandingPage from "./pages/landingpage/LandingPage";
 import Test from "./pages/Test";
 
+// App components
+
 function App() {
+  // No state
   return (
     <Fragment>
       <Router>
