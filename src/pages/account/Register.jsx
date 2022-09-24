@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Button, Form, Jumbotron } from "react-bootstrap";
 import "./register.css";
+//import register
 const Register = () => {
   const [form, setForm] = useState({ email: "", password: "" });
   const [result, setResult] = useState(false);
+  //state
   const updateForm = (e) => {
     e.persist();
     setForm((form) => ({
