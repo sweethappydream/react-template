@@ -8,6 +8,5 @@ const LandingPage = () => {
     </div>
   );
 };
-//landingpage
 
 export default LandingPage;
