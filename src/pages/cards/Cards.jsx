@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Card, Col, Row, Button } from "react-bootstrap";
 import "./cards.css";
-
+//import
 const variantStyle = [
   "primary",
   "secondary",
@@ -19,7 +19,7 @@ const Cards = () => {
       .then((res) => setUserData(res.data))
       .catch((err) => console.log(err));
   }, []);
-
+//state
   const [userData, setUserData] = useState([]);
   const [variant, setVariant] = useState("primary");
   return (
