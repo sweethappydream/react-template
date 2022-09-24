@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "bootswatch/dist/minty/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
+//impot app
 ReactDOM.render(
   <React.StrictMode>
     <App />
