@@ -6,6 +6,7 @@ import Register from "./pages/account/Register";
 import Cards from "./pages/cards/Cards";
 import LandingPage from "./pages/landingpage/LandingPage";
 import Test from "./pages/Test";
+//import componenets
 
 // App components
 
